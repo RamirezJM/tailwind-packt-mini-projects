@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Product modal</title>
+</head>
+
+<body>
+  <main class="flex items-center justify-center bg-slate-300 min-h-screen">
+    <article class="flex flex-col gap-6 md:flex-row bg-neutral-100 shadow-md rounded-xl p-10">
+      <img src="images/headphone.png" alt="headphones"
+        class="aspect-square size-50 self-center md:self-start duration-200 hover:scale-103">
+      <section class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 items-center md:items-start">
+          <h1 class="text-xl text-center md:text-left font-semibold">Razer Kraken Kitty Edit Gaming Headset Quartz</h1>
+          <p class="text-white text-xs bg-black/90 rounded-full -order-1 w-fit p-2">Free shipping</p>
+          <p class="text-xs line-through">$ 799</p>
+          <p class="text-4xl font-bold">$ 599</p>
+          <p class="text-xs text-gray-400">The offer is valis until April 3 or as long as stock lasts!</p>
+        </div>
+        <button
+          class="bg-blue-500 border border-b-4 border-blue-800 rounded-lg text-white p-2 hover:bg-blue-800 hover:border-t-4 hover:border-blue-800">Add
+          to cart</button>
+        <p class="text-xs">🟢 50+ pcs. in stock</p>
+        <div class="flex flex-col md:flex-row md:items-center justify-center gap-4">
+          <button class="flex items-center justify-center flex-1 gap-2 border border-2 border-neutral-400 rounded-lg p-2 
+            hover:-translate-y-1 hover:shadow-md transition-all duration-150">
+            <img src="images/weight.png" alt="weight" class="size-6">
+            Add to cart
+          </button>
+          <button class="flex items-center justify-center flex-1 gap-2 border border-2 border-neutral-400 rounded-lg p-2 
+            hover:-translate-y-1 hover:shadow-md transition-all duration-150">
+            <img src="images/heart.png" alt="heart" class="size-6">
+            Add to wishlist
+          </button>
+        </div>
+
+
+      </section>
+    </article>
+  </main>
+
+</body>
+
+</html>
